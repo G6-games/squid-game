@@ -191,7 +191,7 @@ async function startDall(){
    lookBackward()
    await delay((Math.random() * 1500) + 1500)
    lookForward()
-   await delay((Math.random() * 750) + 750)
+   await delay((Math.random() * 7000) + 3600)
    startDall()
 }
 
