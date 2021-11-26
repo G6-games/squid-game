@@ -154,7 +154,7 @@ const players = [
     }
 ]
 
-const TIME_LIMIT = 15
+const TIME_LIMIT = 5000
 async function init(){
     await delay(500)
     text.innerText = "Starting in 3"
